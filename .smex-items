@@ -1,0 +1,21 @@
+
+;; ----- smex-history -----
+(
+ undo
+ yank
+ package-list-packages
+ search-forward
+ package-install
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 1)
+ (package-list-packages . 2)
+ (search-forward . 2)
+ (yank . 1)
+ (evil-paste-pop . 1)
+ (undo . 1)
+)
