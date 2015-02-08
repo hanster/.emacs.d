@@ -1,0 +1,9 @@
+(ns four-clojure.core)
+
+(defn fizzbuzz
+  [number]
+  (if (= 0 (mod number 3))
+    "fizz"
+    (if (= 0 (mod number 5))
+      "buzz"
+      number)))

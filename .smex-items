@@ -1,21 +1,47 @@
 
 ;; ----- smex-history -----
 (
- undo
- yank
- package-list-packages
- search-forward
+ load-theme
  package-install
- cd
- 5x5
+ customize-face
+ cider-grimoire
+ apropos
+ cider-jack-in
+ shell
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 1)
- (package-list-packages . 2)
+ (package-install . 2)
+ (package-list-packages . 4)
  (search-forward . 2)
  (yank . 1)
  (evil-paste-pop . 1)
  (undo . 1)
+ (recentf-open-files . 1)
+ (cider-jack-in . 6)
+ (ido-mode . 2)
+ (ido-everywhere . 2)
+ (four-windows . 10)
+ (put-buffer-in-h-window . 4)
+ (put-buffer-in-j-window . 5)
+ (custom-theme-visit-theme . 2)
+ (shell . 4)
+ (apropos . 2)
+ (switch-to-h-window . 1)
+ (switch-to-j-window . 1)
+ (cider-apropos-documentation . 4)
+ (evil-goto-definition . 2)
+ (put-buffer-in-k-window . 1)
+ (desktop-save-mode . 4)
+ (desktop-save . 1)
+ (desktop-revert . 2)
+ (desktop-read . 3)
+ (cider-load-file . 1)
+ (cider-eval-buffer . 2)
+ (cider-grimoire . 6)
+ (cider-eval-last-sexp . 1)
+ (evil-scroll-up . 1)
+ (customize-face . 1)
+ (load-theme . 1)
 )

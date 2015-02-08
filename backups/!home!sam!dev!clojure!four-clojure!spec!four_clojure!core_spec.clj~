@@ -1,0 +1,11 @@
+(ns four-clojure.core-spec
+  (:require [speclj.core :refer :all]
+            [four-clojure.core :refer :all]))
+
+(describe "Fizz Buzz tests"
+  (it "returns numbers"
+    (should= 1 (fizzbuzz 1)))
+  (it "returns 'fizz' when divisible by 3"
+      (should= "fizz" (fizzbuzz 3)))
+  (it "returns 'buzz' when divisible by 5"
+      (should= "buzz" (fizzbuzz 5))))

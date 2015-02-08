@@ -1,0 +1,69 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/sam/dev/clojure/four-clojure/src/" . "four_clojure/")
+ ("/home/sam/dev/clojure/four-clojure/" . "src/")
+ ("/home/sam/dev/clojure/clojure-noob/test/" . "clojure_noob/")
+ ("/home/sam/" . "dev/")
+ ("/home/sam/dev/clojure/clojure-noob/src/" . "clojure_noob/")
+ ("/home/sam/dev/clojure/clojure-noob/" . "test/")
+ ("/home/sam/dev/clojure/" . "bjj-gi-checker/")
+ ("/home/sam/dev/" . "clojure/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/sam/.emacs.d/"
+ "/home/sam/dev/clojure/four-clojure/"
+ "/home/sam/dev/clojure/four-clojure/src/four_clojure/"
+ "/home/sam/dev/clojure/bjj-gi-checker/"
+ "/home/sam/dev/clojure/clojure-noob/"
+ "/home/sam/dev/clojure/clojure-noob/test/clojure_noob/"
+ "/home/sam/dev/clojure/clojure-noob/src/clojure_noob/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "project.clj"
+ ".emacs.desktop"
+ "core.clj"
+ "core_test.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/sam/.emacs.d/" (21718 46091 403829 442000) ".git/" "places" "ido.last" ".emacs.desktop" "themes/" "./" "README.md" ".smex-items" "backups/" "elpa/" "auto-save-list/" "customizations/" "projectile-bookmarks.eld" "cider-history" "../" "init.el" ".recentf")
+
+ ("/home/sam/dev/clojure/four-clojure/" (21718 30071 275258 931000) ".git/" "src/" ".nrepl-port" "./" "project.clj" "README.md" "spec/" "../" "target/" ".gitignore")
+
+ ("/home/sam/dev/clojure/four-clojure/src/four_clojure/" (21718 9856 182539 27000) "core.clj" "./" "../")
+
+ ("/home/sam/dev/clojure/four-clojure/src/" (21718 9856 182539 27000) "./" "../" "four_clojure/")
+
+ ("/home/sam/dev/clojure/bjj-gi-checker/src/liberator_service/sources/" (21693 30946 577878 409000) "./" "tatami.clj" "../")
+
+ ("/home/sam/dev/clojure/bjj-gi-checker/" (21685 39519 837810 525000) ".git/" "src/" "liberator_service.iml" ".nrepl-port" "./" "project.clj" "README.md" ".idea/" ".lein-repl-history" "resources/" "../" "target/" ".gitignore" "test/")
+
+ ("/home/sam/dev/clojure/" (21718 9856 174539 27000) "cloujera/" "clojure-noob/" "liberator/" "cloned/" "liberator-mongo/" "./" "i-am-a-horse-in-the-land-of-booleans/" "clojure-koans/" "four-clojure/" "bjj-gi-checker/" "ttt-speclj/" "lobos-test/" "../" "ttt-tdd/")
+
+ ("/home/sam/" (21718 9763 986535 744000) ".Xauthority" ".wine-browser/" ".xbmc/" ".cinnamon/" ".gnome2/" ".bash_logout" ".cache/" "emacs-24.4/" ".thunderbird/" ".ssh/" ".dbus/" ".gem/" ".dmrc" ".android/" ".gitconfig" "Documents/" "Desktop/" ".zcompdump" ".java/" "Templates/" "Public/" ".pki/" "./" ".local/" ".pgadmin_histoqueries" ".gconf/" "bin/" ".histfile" ".xinputrc" ".xsession-errors" "pgadmin.log" ".lein/" ".gnome2_private/" ".gstreamer-0.10/" "Music/" ".config/" ".mozilla/" "Pictures/" ".gksu.lock" ".linuxmint/" ".Skype/" ".gnupg/" "dev/" ".IntelliJIdea13/" "Videos/" ".bash_history" "xbmc_crashlog-20141006_235350.log" "Downloads/" ".gnome/" ".zshrc.swp" ".IntelliJIdea14/" ".profile" ".adobe/" "emacs-24.4.tar.gz" ".macromedia/" ".pgpass" ".pgadmin3" "../" ".ICEauthority" ".m2/" ".zshrc" ".swfinfo" ".heroku/" ".emacs.d/" ".AndroidStudioBeta/")
+
+ ("/home/sam/dev/clojure/clojure-noob/test/clojure_noob/" (21718 492 818205 578000) "./" "core_test.clj" "../")
+
+ ("/home/sam/dev/clojure/clojure-noob/test/" (21692 6003 94306 296000) "./" "clojure_noob/" "../")
+
+ ("/home/sam/dev/clojure/clojure-noob/" (21718 6377 782415 154000) "src/" "LICENSE" "doc/" "./" "project.clj" "README.md" ".lein-failures" "resources/" "../" "target/" ".gitignore" "test/")
+
+ ("/home/sam/dev/clojure/clojure-noob/src/clojure_noob/" (21718 3130 618299 515000) "core.clj" "./" "../")
+
+ ("/home/sam/dev/clojure/clojure-noob/src/" (21692 6003 94306 296000) "./" "clojure_noob/" "../")
+
+ ("/home/sam/dev/clojure/clojure-koans/" (21705 34448 265803 504000) ".git/" "src/" "./" "project.clj" "README.md" ".idea/" "ideaboard.txt" "clojure_koans.iml" ".lein-repl-history" "resources/" "script/" "../" "epl-v10.html" "target/" ".gitignore")
+
+ ("/home/sam/dev/" (21713 23538 788366 499000) "git_tutorial.zip" "java/" "ruby/" "postgresql-script.sh" "./" "clojure/" "ideaIU-13.1.5.tar.gz" "android-studio/" "LightTable/" "git_tutorial/" "LightTableLinux64.tar.gz" ".postgresql-script.sh.swp" "python/" "intellij/" "android-studio-bundle-135.1245622-linux.tgz" "../" "hanster.github.io/" "Talk notes/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

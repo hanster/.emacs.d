@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/.emacs.d/" "~/dev/clojure/bjj-gi-checker/" "~/dev/clojure/four-clojure/" "~/dev/clojure/clojure-noob/")

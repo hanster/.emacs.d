@@ -1,0 +1,35 @@
+(ns clojure-noob.core
+  (:gen-class))
+
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  (println "Hello, World!"))
+
+(println "Cleanliness is next to godliness")
+
+(defn train
+  []
+  (println "choo choo"))
+
+
+(defn test-def
+  "some sort of test method"
+  [x]
+  (* x x))
+
+(println (test-def 5))
+
+(defn cubed [x]
+  (println (* x x x))
+  (if (> x 0)
+    (println "it's over 0!")
+    (println "it's 0 or less mate"))
+  (println "the end"))
+
+(defn fizz-buzz [number]
+  (if (= (mod number 3) 0)
+    (println "fizz"))) 
+
+(defn my-flatten [sequence]
+  (loop ))clojure-noob.core> 

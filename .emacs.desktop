@@ -1,0 +1,52 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Feb  7 18:22:53 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21718 22525 373252 771000) (desktop . "206") "sam@sam" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "black") (border-color . "#2a2a2a") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 1) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (sticky) (environment) (frameset--id . "3828-3FF2-8E66-6F2A") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 51) (width . 211) (left . 0) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 8) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 152) (min-pixel-width . 180) (min-pixel-height-ignore . 76) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 38) (min-pixel-width-safe . 36)) vc (pixel-width . 1920) (pixel-height . 968) (total-width . 213) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1920) (pixel-height . 456) (total-width . 213) (total-height . 24) (normal-height . 0.48050579557428874) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 954) (pixel-height . 456) (total-width . 106) (total-height . 24) (normal-height . 1.0) (normal-width . 0.49687499999999996) (buffer "core.clj" (selected) (hscroll . 0) (fringes 9 9 nil) (margins 1) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 129) (start . 1))) (leaf (last . t) (pixel-width . 966) (pixel-height . 456) (total-width . 107) (total-height . 24) (normal-height . 1.0) (normal-width . 0.503125) (buffer "core_spec.clj" (selected) (hscroll . 0) (fringes 9 9 nil) (margins 2) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 350) (start . 1)))) (leaf (last . t) (pixel-width . 1920) (pixel-height . 512) (total-width . 213) (total-height . 26) (normal-height . 0.5194942044257113) (normal-width . 1.0) (buffer "core.clj" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins 1) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 147) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("\\_<ns\\_>" "\\_<should=\\_>" "\\_<it\\_>" "\\_<describe\\_>"))
+(setq register-alist '((113)))
+(setq file-name-history '("~/.emacs.d/" "~/.emacs.d/ido.last" "~/dev/clojure/four-clojure/spec/four_clojure/core_spec.clj" "~/dev/clojure/four-clojure/src/four_clojure/core.clj" "~/dev/clojure/bjj-gi-checker/src/liberator_service/sources/tatami.clj" "~/dev/clojure/bjj-gi-checker/project.clj" "~/dev/clojure/four-clojure/project.clj" "~/dev/clojure/clojure-noob/project.clj" "~/dev/clojure/clojure-noob/test/clojure_noob/core_test.clj" "~/dev/clojure/clojure-noob/src/clojure_noob/core.clj" "~/.emacs.d/init.el" "~/.emacs.d/elpa/clojure-mode-20150113.1048/clojure-mode-autoloads.el" "~/.emacs.d/elpa/clojure-mode-extra-font-locking-20150110.505/clojure-mode-extra-font-locking-autoloads.el" "~/.emacs.d/elpa/evil-20150201.612/evil-autoloads.el" "~/.emacs.d/elpa/undo-tree-20140509.522/undo-tree-autoloads.el" "~/.emacs.d/elpa/goto-chg-20131228.1459/goto-chg-autoloads.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/sam/dev/clojure/four-clojure/src/four_clojure/core.clj"
+  "core.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode rainbow-delimiters-mode undo-tree-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  147
+  '(147 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/sam/.emacs.d/.emacs.desktop"
+  ".emacs.desktop"
+  'emacs-lisp-mode
+  '(projectile-mode linum-mode rainbow-delimiters-mode undo-tree-mode eldoc-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . emacs-mule-unix)))
+
+(desktop-create-buffer 206
+  "/home/sam/dev/clojure/four-clojure/spec/four_clojure/core_spec.clj"
+  "core_spec.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode rainbow-delimiters-mode undo-tree-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  350
+  '(113 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
