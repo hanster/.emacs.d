@@ -2,10 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/sam/.emacs.d/" . "customizations/")
+ ("/home/sam/dev/clojure/bowling-kata/src/" . "bowling_kata/")
+ ("/home/sam/dev/clojure/bowling-kata/spec/" . "bowling_kata/")
+ ("/home/sam/dev/clojure/bowling-kata/" . "src/")
  ("/home/sam/dev/clojure/four-clojure/src/" . "four_clojure/")
  ("/home/sam/dev/clojure/four-clojure/" . "src/")
  ("/home/sam/dev/clojure/clojure-noob/test/" . "clojure_noob/")
- ("/home/sam/" . "dev/")
+ ("/home/sam/" . ".emacs.d/")
  ("/home/sam/dev/clojure/clojure-noob/src/" . "clojure_noob/")
  ("/home/sam/dev/clojure/clojure-noob/" . "test/")
  ("/home/sam/dev/clojure/" . "bjj-gi-checker/")
@@ -14,10 +18,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/sam/.emacs.d/customizations/"
  "/home/sam/.emacs.d/"
+ "/home/sam/dev/clojure/bowling-kata2/"
+ "/home/sam/dev/clojure/bjj-gi-checker/"
+ "/home/sam/dev/clojure/bowling-kata/"
+ "/home/sam/dev/clojure/bowling-kata/src/bowling_kata/"
+ "/home/sam/dev/clojure/bowling-kata/spec/bowling_kata/"
  "/home/sam/dev/clojure/four-clojure/"
  "/home/sam/dev/clojure/four-clojure/src/four_clojure/"
- "/home/sam/dev/clojure/bjj-gi-checker/"
  "/home/sam/dev/clojure/clojure-noob/"
  "/home/sam/dev/clojure/clojure-noob/test/clojure_noob/"
  "/home/sam/dev/clojure/clojure-noob/src/clojure_noob/"
@@ -25,16 +34,45 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "ui.el"
  "init.el"
+ "projectile-bookmarks.eld"
+ "ido.last"
+ ".smex-items"
  "project.clj"
- ".emacs.desktop"
  "core.clj"
+ "core_spec.clj"
+ ".emacs.desktop"
  "core_test.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/sam/.emacs.d/" (21718 46091 403829 442000) ".git/" "places" "ido.last" ".emacs.desktop" "themes/" "./" "README.md" ".smex-items" "backups/" "elpa/" "auto-save-list/" "customizations/" "projectile-bookmarks.eld" "cider-history" "../" "init.el" ".recentf")
+ ("/home/sam/.emacs.d/customizations/" (21718 2581 626279 965000) "navigation.el" "setup-js.el" "elisp-editing.el" "shell-integration.el" "ui.el" "./" "misc.el" "../" "setup-clojure.el" "editing.el")
+
+ ("/home/sam/.emacs.d/" (21724 7534 298055 810000) ".git/" "places" "ido.last" ".emacs.desktop" "themes/" "history/" "./" "README.md" ".smex-items" "backups/" "elpa/" "auto-save-list/" "customizations/" "projectile-bookmarks.eld" "cider-history" "../" "init.el" ".recentf")
+
+ ("/home/sam/" (21722 32459 586343 69000) ".Xauthority" ".wine-browser/" ".xbmc/" ".cinnamon/" ".gnome2/" ".bash_logout" ".cache/" "emacs-24.4/" ".thunderbird/" ".ssh/" ".dbus/" ".gem/" ".dmrc" ".android/" ".gitconfig" "Documents/" "Desktop/" ".zcompdump" ".java/" "Templates/" "Public/" ".pki/" "./" ".local/" ".pgadmin_histoqueries" ".gconf/" "bin/" ".histfile" ".xinputrc" ".xsession-errors" "pgadmin.log" ".lein/" ".gnome2_private/" ".gstreamer-0.10/" "Music/" ".config/" ".mozilla/" "Pictures/" ".gksu.lock" ".linuxmint/" ".Skype/" ".gnupg/" "dev/" ".IntelliJIdea13/" "Videos/" ".bash_history" "xbmc_crashlog-20141006_235350.log" "Downloads/" ".gnome/" ".zshrc.swp" ".IntelliJIdea14/" ".profile" ".adobe/" "emacs-24.4.tar.gz" ".macromedia/" ".pgpass" ".pgadmin3" "../" ".ICEauthority" ".m2/" ".zshrc" ".swfinfo" ".heroku/" ".emacs.d/" ".AndroidStudioBeta/")
+
+ ("/home/sam/dev/clojure/bowling-kata2/src/bowling_kata2/" (21723 42682 998056 156000) "core.clj" "./" "../")
+
+ ("/home/sam/dev/clojure/bowling-kata2/" (21723 42392 866045 823000) ".git/" "src/" "./" "project.clj" "README.md" "spec/" "../" "target/" ".gitignore")
+
+ ("/home/sam/dev/clojure/bjj-gi-checker/" (21718 46037 423827 520000) ".git/" "src/" "liberator_service.iml" "./" "project.clj" "README.md" ".idea/" ".lein-repl-history" "resources/" "../" "target/" ".gitignore" "test/")
+
+ ("/home/sam/dev/clojure/bowling-kata/" (21722 31772 130318 587000) ".git/" "src/" ".nrepl-port" "./" "project.clj" "README.md" "spec/" "../" "target/" ".gitignore")
+
+ ("/home/sam/dev/clojure/bowling-kata/src/bowling_kata/" (21721 8408 742303 153000) "core.clj" "./" "../")
+
+ ("/home/sam/dev/clojure/bowling-kata/src/" (21721 7819 18282 152000) "bowling_kata/" "./" "../")
+
+ ("/home/sam/dev/clojure/bowling-kata/spec/bowling_kata/" (21721 8315 558299 835000) "core_spec.clj" "./" "../")
+
+ ("/home/sam/dev/clojure/bowling-kata/spec/" (21721 7819 18282 152000) "bowling_kata/" "./" "../")
+
+ ("/home/sam/dev/clojure/" (21721 7819 14282 152000) "cloujera/" "bowling-kata/" "clojure-noob/" "liberator/" "cloned/" "liberator-mongo/" "./" "i-am-a-horse-in-the-land-of-booleans/" "clojure-koans/" "four-clojure/" "bjj-gi-checker/" "ttt-speclj/" "lobos-test/" "../" "ttt-tdd/")
+
+ ("/home/sam/dev/clojure/four-clojure/spec/four_clojure/" (21719 38197 438037 832000) "core_spec.clj" "./" "../")
 
  ("/home/sam/dev/clojure/four-clojure/" (21718 30071 275258 931000) ".git/" "src/" ".nrepl-port" "./" "project.clj" "README.md" "spec/" "../" "target/" ".gitignore")
 
@@ -43,12 +81,6 @@
  ("/home/sam/dev/clojure/four-clojure/src/" (21718 9856 182539 27000) "./" "../" "four_clojure/")
 
  ("/home/sam/dev/clojure/bjj-gi-checker/src/liberator_service/sources/" (21693 30946 577878 409000) "./" "tatami.clj" "../")
-
- ("/home/sam/dev/clojure/bjj-gi-checker/" (21685 39519 837810 525000) ".git/" "src/" "liberator_service.iml" ".nrepl-port" "./" "project.clj" "README.md" ".idea/" ".lein-repl-history" "resources/" "../" "target/" ".gitignore" "test/")
-
- ("/home/sam/dev/clojure/" (21718 9856 174539 27000) "cloujera/" "clojure-noob/" "liberator/" "cloned/" "liberator-mongo/" "./" "i-am-a-horse-in-the-land-of-booleans/" "clojure-koans/" "four-clojure/" "bjj-gi-checker/" "ttt-speclj/" "lobos-test/" "../" "ttt-tdd/")
-
- ("/home/sam/" (21718 9763 986535 744000) ".Xauthority" ".wine-browser/" ".xbmc/" ".cinnamon/" ".gnome2/" ".bash_logout" ".cache/" "emacs-24.4/" ".thunderbird/" ".ssh/" ".dbus/" ".gem/" ".dmrc" ".android/" ".gitconfig" "Documents/" "Desktop/" ".zcompdump" ".java/" "Templates/" "Public/" ".pki/" "./" ".local/" ".pgadmin_histoqueries" ".gconf/" "bin/" ".histfile" ".xinputrc" ".xsession-errors" "pgadmin.log" ".lein/" ".gnome2_private/" ".gstreamer-0.10/" "Music/" ".config/" ".mozilla/" "Pictures/" ".gksu.lock" ".linuxmint/" ".Skype/" ".gnupg/" "dev/" ".IntelliJIdea13/" "Videos/" ".bash_history" "xbmc_crashlog-20141006_235350.log" "Downloads/" ".gnome/" ".zshrc.swp" ".IntelliJIdea14/" ".profile" ".adobe/" "emacs-24.4.tar.gz" ".macromedia/" ".pgpass" ".pgadmin3" "../" ".ICEauthority" ".m2/" ".zshrc" ".swfinfo" ".heroku/" ".emacs.d/" ".AndroidStudioBeta/")
 
  ("/home/sam/dev/clojure/clojure-noob/test/clojure_noob/" (21718 492 818205 578000) "./" "core_test.clj" "../")
 

@@ -131,10 +131,6 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 
-(add-to-list 'load-path "~/.emacs.d/evil")
-(require 'evil)
-(evil-mode 1)
-
 
 (defun h-window () (window-at 1 1))
 (defvar h-buffer nil)
@@ -196,21 +192,15 @@
        (list h-buffer j-buffer k-buffer l-buffer)
        (list 'h-window 'j-window 'k-window 'l-window)))
 
-(load-theme 'zenburn t)
-
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
- '(custom-safe-themes
-   (quote
-    ("9dae95cdbed1505d45322ef8b5aa90ccb6cb59e0ff26fef0b8f411dfc416c552" default))))
+ '(coffee-tab-width 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(linum ((t (:foreground "dim gray")))))
